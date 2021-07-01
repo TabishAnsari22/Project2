@@ -1,0 +1,111 @@
+*{ margin: 0;
+padding: 0;
+box-sizing: border-box; }
+.main{width: 100%;
+height: 100%;
+// display: flex;
+// flex-wrap: nowrap;
+}
+.img_div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    // justify-content: center;
+    // align-items: center;
+}
+.one{
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    
+}
+.child{
+    width: 30%;
+    height: 30%;
+    border: 1px solid gray;
+    position: relative;
+    margin-left: 35%;
+    margin-top: 12%;
+    color: white;
+    font-family:"Segoe UI",Arial,sans-serif;
+    font-size: 20px;
+    font-weight:400;
+    letter-spacing: 4px;
+    padding: 2%;
+}
+.div_bt{width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    position: relative;
+    justify-content: center;
+    
+}
+
+.main_one{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    // flex-wrap: nowrap;
+}
+.button{
+    border: none;
+    padding: 3px;
+    margin-top: 9%;
+ &:hover{background-color: lightgray;}
+}
+.main_two{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:space-around;
+}
+.image{padding: 2%;
+height: 100%;
+width: 100%;
+}
+.main_three{
+    width: 100%;
+    height: 100%;
+    // background-color: lightgray;
+    display: flex;
+    flex-wrap: nowrap;
+    
+}
+.input{width: 100%;
+height: 20%;}
+.button_one{
+    width: 100%;
+    height: 20%;
+    background: gray;
+    border: 1px solid gray;
+    &:hover{background-color: lightgray;}
+}
+.form{
+    width: 100%;
+    height: 100%;
+    padding: 2%;
+}
+.four{
+    width: 100%;
+    height: 100%;
+    background-color: lightgray;
+    padding: 2%;
+ 
+}
+.hed{
+    text-align: center;
+}
+p{
+    font-family: Verdana,sans-serif;
+}
+@media only screen and (max-width: 600px){
+    .one,
+    .two{
+        height: 100%;
+        width: 100%;
+    }
+}
